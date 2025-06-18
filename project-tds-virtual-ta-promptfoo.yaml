@@ -24,7 +24,7 @@ defaultTest:
         method: POST
         headers:
           Content-Type: application/json
-          Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImthcnRoaWttdXJhbGltNjlAZ21haWwuY29tIn0.mlE4kB0ogNaQghbl6j6dxg1JD7UYhXUsqCd9i4zf_IM  # Replace with your token
+          Authorization: Bearer ${OPENAI_API_KEY}  # Replace with your token
         body: |
           {
             "model": "gpt-4.1-mini",

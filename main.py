@@ -29,6 +29,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 base_url="https://aipipe.org/openai/v1"
+OPENAI_BASE_URL= os.getenv("OPENAI_BASE_URL")
 # --- OPENAI CLIENT ---
 client = OpenAI(api_key=OPENAI_API_KEY,base_url=base_url)
 
