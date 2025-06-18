@@ -20,7 +20,7 @@ defaultTest:
     provider:
       id: https
       config:
-        url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions 
+        url: https://aipipe.org/openai/v1/chat/completions
         method: POST
         headers:
           Content-Type: application/json
