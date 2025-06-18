@@ -46,6 +46,7 @@ Create a ```.env``` file in the root:
 ```ini
 OPENAI_API_KEY=your_openai_api_key
 GEMINI_API_KEY=your_google_gemini_api_key
+OPENAI_BASE_URL=https://aipipe.org/openai/v1
 ```
 
 
