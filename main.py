@@ -28,7 +28,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-base_url = os.getenv("OPENAI_BASE_URL", "https://aiproxy.sanand.workers.dev")  # fallback to default
+base_url = os.getenv("OPENAI_BASE_URL", "https://aiproxy.sanand.workers.dev/openai")  # fallback to default
 # --- OPENAI CLIENT ---
 client = OpenAI(api_key=OPENAI_API_KEY,base_url=base_url)
 
