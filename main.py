@@ -16,7 +16,7 @@ load_dotenv()
 # --- CONFIGURATION ---
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 EMBEDDING_MODEL = "text-embedding-3-small"
-GPT_MODEL = "gpt-4o-mini"
+GPT_MODEL = "gpt-4.1-mini"
 TOP_K = 10
 
 # --- INIT FASTAPI ---
@@ -28,7 +28,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-base_url="https://aipipe.org/openai/v1/"
+base_url="https://aipipe.org/openai/v1"
 OPENAI_BASE_URL= os.getenv("OPENAI_BASE_URL")
 # --- OPENAI CLIENT ---
 client = OpenAI(api_key=OPENAI_API_KEY,base_url=base_url)
