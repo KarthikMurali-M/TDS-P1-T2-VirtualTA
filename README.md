@@ -25,8 +25,8 @@ Supports both:
 ## 🛠️ Setup Instructions (with uv)
 1. Clone the repository
 ```bash
-git clone https://github.com/KarthikMurali-M/TDS-Project1-T2-VirtualTA.git
-cd TDS-Project1-T2-VirtualTA
+git clone https://github.com/KarthikMurali-M/TDS-P1-T2-VirtualTA.git
+cd TDS-P1-T2-VirtualTA
 ```
 2. Set up the environment using uv
 ```bash
